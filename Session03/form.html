@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Application Form</h1>
+    <form>
+      <div>
+        <label for="name">First Name:</label>
+        <input type="text" id="first name" name="full name" autofocus />
+        <label for="name">Last Name:</label>
+        <input type="text" id="last name" name="last name" />
+      </div>
+      <div>
+        <label for="date">Date of Birth:</label>
+        <input type="date" id="date" name="date" />
+        <label for="age">Age:</label>
+        <input type="number" />
+      </div>
+      <div>
+        <label for="gender">Gender:</label>
+        <select>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Others</option>
+        </select>
+        <label for="email">Email Address:</label>
+        <input type="text" id="email" name="email" />
+      </div>
+      <div>
+        <label for="position">Position Available</label>
+        <div>
+          <form>
+            <input type="checkbox" />Junior Developer
+            <input type="checkbox" />Mid-level Developer
+            <input type="checkbox" />Senior Developer
+          </form>
+        </div>
+
+        <label for="languages">Programming languages</label>
+        <form>
+          <input type="checkbox" />Java <input type="checkbox" />Javascript
+          <input type="checkbox" />HTML
+        </form>
+      </div>
+      <label for="password">Password</label>
+      <input type="text" id="password" name="password" />
+      <label for="password">Confirm password</label>
+      <input type="text" id="password" name="password" />
+      <footer>
+        <button>Submit</button>
+        <button>Reset</button>
+      </footer>
+    </form>
+  </body>
+</html>

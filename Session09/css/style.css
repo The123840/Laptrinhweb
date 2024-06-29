@@ -1,0 +1,104 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  color: aquamarine;
+  background-color: gold;
+  font-family: "Inter", sans-serif;
+}
+.form {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  color: green;
+  padding-top: 40px;
+  margin-bottom: 40px;
+  font-family: "Inter", sans-serif;
+}
+
+.field {
+  padding-bottom: 20px;
+  padding-left: 50px;
+  box-sizing: border-box;
+  color: black;
+}
+
+.button {
+  padding: 20px 30px;
+  display: block;
+  margin: 0 auto;
+  color: white;
+  background-color: aquamarine;
+  font-family: "Inter", sans-serif;
+  border: none;
+  border-radius: 8px;
+  text-transform: uppercase;
+  display: block;
+  margin: auto;
+  transition: all 0.3 all ease in;
+}
+.footer {
+  color: black;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 25px;
+  padding: 20px;
+}
+
+.span {
+  color: blue;
+  margin: 2px;
+  padding-bottom: 10px;
+}
+#email,
+#password,
+#showPassword {
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+.box {
+  margin-bottom: 15px;
+}
+
+.button:hover {
+  opacity: 0.75;
+}

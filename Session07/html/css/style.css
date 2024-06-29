@@ -1,0 +1,22 @@
+h1 {
+  background-color: black;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 35px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.text {
+  text-transform: lowercase;
+  text-align: right;
+  margin: 50px;
+  padding: 50px;
+  font-size: large;
+  font-weight: 800;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  background-color: grey;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
