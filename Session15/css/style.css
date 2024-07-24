@@ -39,8 +39,8 @@ body {
 
 .container {
   width: 1140px;
+  /* margin: auto để căn giữa */
   margin: auto;
-  list-style: none;
 }
 
 #header {
@@ -258,8 +258,6 @@ li {
 }
 
 .subscriptionn h2 {
-  text-align: left;
-  margin-top: 0;
   font-size: 2em;
   color: #333;
 }
@@ -290,30 +288,33 @@ h2 {
   flex-direction: column;
 }
 
-.header-title {
+#anything {
   display: flex;
   align-items: flex-start;
+  gap: 30px;
+  margin-bottom: 80px;
 }
 
-h1 {
+.anything-left h1 {
   font-size: 50px;
   width: 555px;
   font-weight: 600;
   line-height: 1.5;
 }
 
-.cooper {
+.anything-left p {
   width: 555px;
   font-size: 16px;
+  line-height: 1.8;
   color: #4f5665;
 }
 
-span {
+.anything-left span {
   font-weight: bold;
   color: #202020;
 }
 
-.header-illustration {
+.anything-right {
   display: flex;
   flex-direction: row;
 }
@@ -337,7 +338,7 @@ span {
   opacity: 0.8;
 }
 
-.flex-board {
+#introduce {
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 30px;
@@ -348,7 +349,7 @@ span {
   gap: 10px;
 }
 
-.header-board {
+.introduce-board {
   border-bottom: none;
   border-right: 2px solid #eee;
   display: flex;
@@ -360,58 +361,66 @@ span {
   height: 40px;
 }
 
-.header-board li {
+.introduce-board span {
   padding-top: 13px;
 }
 
-.header-board:nth-child(3) {
+.introduce-board:nth-child(3) {
   border-right: none;
 }
 
-.feature-head {
+/* Feature */
+#feature {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.feature-left {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
 
-.feature-head p {
+.feature-right p {
   margin-top: 20px;
   line-height: 1.6;
 }
 
-.feature-head-title {
+.feature-right {
   width: 428px;
 }
 
-.feature-head-list {
+.feature-element {
   display: flex;
   align-items: flex-start;
   gap: 10px;
   padding-top: 20px;
 }
 
+/* Plan */
 #plan {
+  text-align: center;
+}
+
+#plan h2 {
+  text-align: center;
+}
+#plan p {
+  margin-bottom: 20px;
+}
+.plan-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
 }
 
-.plan-head {
-  text-align: center;
-}
-
-.need-head {
-  text-align: center;
-}
-
-.plan-list {
+.plan-element {
   border: none;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-top: 20px;
 }
 
-.plan-list h3 {
+.plan-element h3 {
   text-align: center;
 }
 
@@ -444,8 +453,6 @@ span {
 }
 
 .plan-list p {
-  text-align: center;
-  margin-top: 90px;
   margin: 20px;
 }
 
