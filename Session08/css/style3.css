@@ -4,10 +4,12 @@
   font-weight: 700;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   width: 100%;
-  color: black;
+  color: white;
 }
 .form {
   width: 400px;
+  display: flex;
+  flex-direction: column;
 }
 .box {
   color: aqua;
@@ -27,17 +29,36 @@
   padding-left: 20px;
   width: 100%;
   text-align: center;
+  color: white;
 }
 .button {
   width: 430px;
   padding-top: 20px;
   padding-bottom: 20px;
   color: white;
-  background-color: mediumspringgreen;
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
   border: none;
   border-radius: 10px;
 }
 
 .token {
-  color: blue;
+  color: white;
+}
+body {
+  background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+}
+.Firstname {
+  color: white;
+}
+.Lastname {
+  color: white;
+}
+.Email {
+  color: white;
+}
+.Password {
+  color: white;
+}
+p {
+  color: white;
 }

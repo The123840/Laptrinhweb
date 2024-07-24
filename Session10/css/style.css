@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+
+header {
+  background: black;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+nav {
+  background-color: #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin: 0 10px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  background-color: #333;
+}
+.container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+}
+
+header h1 {
+  float: top;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  padding: 20px 0;
+}
+
+main .project {
+  width: 360px;
+  float: left;
+  padding: 50px;
+  margin: 0px auto;
+  box-shadow: #ddd;
+}
+
+main .project img {
+  width: 100%;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+main .project h3 {
+  margin: 50px 0;
+}
+
+main .project p {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.box {
+  text-align: center;
+  font-weight: 700;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+}
+p {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+.button {
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px;
+  padding: 20px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  background: black;
+  font-weight: bold;
+}
+.pass {
+  text-align: center;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: white;
+}
+.footer {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+p {
+  text-align: center;
+}
+.token {
+  text-align: center;
+}
+.cooper {
+  color: white;
+}
+.image {
+  width: 100px;
+  height: 200px;
+}

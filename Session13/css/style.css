@@ -1,0 +1,81 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-family: "Montserrat", sans-serif;
+}
+.icon {
+  width: 50px;
+  height: 40px;
+}
+.button {
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+}
+.cardboard {
+  margin: 20px;
+  padding: 20px;
+}
+.line {
+  /* display flex để chia layout cho các phần tử con
+  flex-direction: xoay layout theo hướng ngang/dọc
+  align-items: chia layout theo chiều dọc
+  justify-content: chia layout theo chiều ngang
+  gap: khoảng cách giữa các phần tử*/
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+.box {
+  color: red;
+}
+p {
+  padding: 10px;
+  margin-top: 10px;
+  color: blue;
+}
+h2 {
+  padding: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  line-height: 1.5;
+}

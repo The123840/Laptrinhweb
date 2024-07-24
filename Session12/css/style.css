@@ -1,0 +1,117 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  font-family: "Roboto Condensed", sans-serif;
+}
+li {
+  list-style: none;
+}
+.glass {
+  font-weight: 800;
+  text-align: center;
+  color: aqua;
+  font-size: large;
+}
+.box {
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+
+.feature-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 12px;
+}
+.icon {
+  width: 50px;
+  height: 40px;
+}
+
+.feature-element {
+  background-color: grey;
+  border: 1px solid;
+  padding: 30px;
+  margin: 30px;
+  transition: all 0.3s orange;
+}
+#feature p {
+  color: white;
+  margin-bottom: 10px;
+}
+#feature h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.feature-element:hover {
+  background-color: rgb(48, 40, 139);
+  cursor: pointer;
+}
+.trust {
+  text-align: center;
+}
+.pass {
+  text-align: center;
+  font-weight: 500;
+  font-size: 70px;
+}
+.trust-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+}
+.trust-element {
+  margin: 20px;
+  padding: 20px;
+  height: 100%;
+}
+
+.feature-content {
+  background-color: cornflowerblue;
+  padding: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+.token {
+  background-color: blue;
+  color: white;
+  margin: 20px;
+  padding: 30px;
+}

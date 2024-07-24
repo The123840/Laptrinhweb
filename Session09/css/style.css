@@ -33,7 +33,7 @@ body {
   font-size: 16px;
   line-height: 1;
   color: aquamarine;
-  background-color: gold;
+  background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
   font-family: "Inter", sans-serif;
 }
 .form {
@@ -48,7 +48,7 @@ body {
   text-align: center;
   font-size: 25px;
   font-weight: 700;
-  color: green;
+  color: black;
   padding-top: 40px;
   margin-bottom: 40px;
   font-family: "Inter", sans-serif;
@@ -66,8 +66,9 @@ body {
   display: block;
   margin: 0 auto;
   color: white;
-  background-color: aquamarine;
+  background: black;
   font-family: "Inter", sans-serif;
+  font-weight: bold;
   border: none;
   border-radius: 8px;
   text-transform: uppercase;

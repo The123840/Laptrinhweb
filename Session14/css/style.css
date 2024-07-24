@@ -1,0 +1,86 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  background-color: #00dbde;
+  background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+  font-family: "Ubuntu", sans-serif;
+}
+.feature-right {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.title {
+  font-weight: bold;
+  color: white;
+}
+.image {
+  border: none;
+  border-radius: 8px;
+  width: 200px;
+  height: 200px;
+}
+.feature-list {
+  margin: 20px;
+  padding: 20px;
+}
+.feature-element {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+.feature-title {
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
+.feature-description {
+  line-height: 1.5;
+}
+.open {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-image: linear-gradient(#ff8a00, #e52e71);
+}
+.cooper {
+  margin-left: 10px;
+}
+p {
+  color: white;
+}
